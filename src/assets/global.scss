@@ -1,0 +1,59 @@
+:root {
+  --primary: #8a4fff;
+  --secondary: #a69313;
+  --dark: #131a26;
+  --grey: #ccc;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--light);
+}
+
+#app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Media queries */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 43.5%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  #app {
+    flex-direction: column;
+
+    .headline {
+      margin: 3rem 1.5rem 1.5rem 3rem;
+    }
+
+    .toggles {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .button-cover {
+      height: 8rem;
+    }
+  }
+}

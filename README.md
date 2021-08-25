@@ -1,14 +1,8 @@
 # Tic-Tac-Toe game
 
-Application is built with **Vue 3**, **TypeScript** and **SCSS** by means of `@vue-cli`
+Application is built with **Vue 3**, **TypeScript** and **SCSS** by means of `@vue-cli`. The implementation has adaptive design based on a user screen width.
 
-It supports switching playing sides and game levels for the player
-
-
-
-
-
-
+It supports switching playing sides and game levels for the player.
 
 ## Project setup
 

@@ -26,25 +26,25 @@ export default defineComponent({
 <style scoped lang="scss">
 .toggle-button-cover {
   position: relative;
-  width: 200px;
-  height: 140px;
+  width: 21rem;
+  height: 14rem;
   box-sizing: border-box;
 
   .button-cover {
-    height: 80px;
-    margin: 20px;
+    height: 10rem;
+    margin: 2rem;
     background-color: #fff;
-    box-shadow: 0 10px 20px -8px #c5d6d6;
-    border-radius: 4px;
+    box-shadow: 0 1rem 2rem -0.9rem #c5d6d6;
+    border-radius: 0.4rem;
 
     &:before {
       position: absolute;
       right: 0;
       bottom: 0;
       color: #d7e3e3;
-      font-size: 12px;
+      font-size: 1.2rem;
       line-height: 1;
-      padding: 5px;
+      padding: 0.5rem;
     }
   }
 }
@@ -62,15 +62,15 @@ export default defineComponent({
 .button {
   position: relative;
   top: 50%;
-  width: 76px;
-  height: 38px;
-  margin: -20px auto 0 auto;
+  width: 8rem;
+  height: 3.8rem;
+  margin: -2rem auto 0 auto;
   overflow: hidden;
 }
 
 .button.r,
 .button.r .layer {
-  border-radius: 100px;
+  border-radius: 10rem;
 }
 
 .button.b2 {
@@ -108,18 +108,18 @@ export default defineComponent({
 }
 
 .button .knobs::before {
-  content: " X";
+  content: "X";
   position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 24px;
-  height: 12px;
+  top: 0.4rem;
+  left: 0.4rem;
+  width: 2.4rem;
+  height: 1.2rem;
   color: #fff;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 350;
   text-align: center;
   line-height: 117%;
-  padding: 9px 4px;
+  padding: 0.9rem 0.4rem;
   background-color: var(--primary);
   border-radius: 50%;
 }

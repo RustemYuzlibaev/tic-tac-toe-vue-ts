@@ -137,7 +137,7 @@ main {
 .cell {
   position: relative;
   border: 1px solid #000;
-  width: 100px;
+  width: 10rem;
   padding-top: 100%;
   cursor: pointer;
 }
@@ -180,10 +180,10 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 10px;
-  height: 90px;
+  width: 1rem;
+  height: 9rem;
   background-color: var(--dark);
-  border-radius: 99px;
+  border-radius: 9.9rem;
 }
 
 .cell.x::before,
@@ -204,9 +204,9 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
-  border: 10px solid var(--dark);
+  width: 6rem;
+  height: 6rem;
+  border: 1rem solid var(--dark);
   border-radius: 50%;
 }
 

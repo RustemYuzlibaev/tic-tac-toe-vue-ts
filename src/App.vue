@@ -1,14 +1,17 @@
 <template>
   <header class="header">
     <h1 class="headline">Tic Tac Toe</h1>
-    <toggle-turn @toggleChange="changePlayer" :disabled="disabled" />
-    <toggle-turn
-      @toggleChange="changeDifficulty"
-      levels="levels"
-      :disabled="disabled"
-    />
+    <div class="toggles">
+      <toggle-turn @toggleChange="changePlayer" :disabled="disabled" />
+      <toggle-turn
+        @toggleChange="changeDifficulty"
+        levels="levels"
+        :disabled="disabled"
+      />
+    </div>
   </header>
   <board
+    class="playground"
     @disableChoice="disableSwitching"
     :player="player"
     :levelUp="difficultyHard"
@@ -50,19 +53,24 @@ export default defineComponent({
 <style lang="scss">
 .header {
   background-color: var(--dark);
-  padding: 8px;
+  padding: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid var(--primary);
+  flex-basis: 40%;
 
   .headline {
-    margin: 0 40px 0 40px;
+    margin: 0 1.5rem 0 1.5rem;
+    font-size: 5rem;
     color: #fff;
-    font-size: 42px;
     text-transform: uppercase;
     text-shadow: -4px 1px var(--primary);
   }
+}
+
+.playground {
+  flex-basis: 60%;
 }
 </style>
