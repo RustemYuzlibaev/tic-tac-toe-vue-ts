@@ -4,6 +4,8 @@ Application is built with **Vue 3**, **TypeScript** and **SCSS** by means of `@v
 
 It supports switching playing sides and game levels for the player.
 
+> Live version is available at: https://rustemyuzlibaev.github.io/tic-tac-toe-vue-ts/
+
 ## Project setup
 
 ```
